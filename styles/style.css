@@ -1,1 +1,11 @@
-/* No CSS */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header.headerHome {
+  background-image: url(../assets/home-1.jpeg);
+}
