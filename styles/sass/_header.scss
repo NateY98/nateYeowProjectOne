@@ -1,0 +1,27 @@
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.navOne ul, 
+nav.navTwo ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+nav.navOne ul li,
+nav.navTwo ul li{
+    padding: 10px 30px;
+    color: black;
+}
+
+nav.navOne ul li:first-child,
+nav.navTwo ul li:first-child{
+    padding-left: 0;
+}
+
+nav.navOne ul li:last-child,
+nav.navTwo ul li:last-child{
+    padding-right: 0;
+}
