@@ -12,8 +12,7 @@ nav.navTwo ul{
 
 nav.navOne ul li,
 nav.navTwo ul li{
-    padding: 10px 30px;
-    color: black;
+    padding: 20px 30px;
 }
 
 nav.navOne ul li:first-child,
@@ -24,4 +23,21 @@ nav.navTwo ul li:first-child{
 nav.navOne ul li:last-child,
 nav.navTwo ul li:last-child{
     padding-right: 0;
+}
+
+// why doesnt this work?, works when I use the color black but doesnt connect to my variables
+nav.navOne ul li a,
+nav.navTwo ul li a,
+nav.navOne ul li i,
+nav.navTwo ul li i{
+    // color: $primaryFontColor;
+    font-size: 0.875rem;
+
+}
+
+h1{
+    letter-spacing: 0.9px;
+    // font-family: $baseFont;
+    font-size: 2.313rem;
+    text-transform: uppercase;
 }
