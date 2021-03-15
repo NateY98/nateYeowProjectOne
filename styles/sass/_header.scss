@@ -1,3 +1,5 @@
+// $primaryFontColor: #333333;
+
 .headerNav{
     display: flex;
     justify-content: space-between;
@@ -25,7 +27,7 @@ nav.navTwo ul li:last-child{
     padding-right: 0;
 }
 
-// why doesnt this work?, works when I use the color black but doesnt connect to my variables
+// why doesnt this work?, works when I use the color black but doesnt connect to my variables. Only works when I put $primaryFontColor in this file?
 nav.navOne ul li a,
 nav.navTwo ul li a,
 nav.navOne ul li i,

@@ -1,5 +1,62 @@
 header.headerHome{
     background-image: url(../assets/home-1.jpeg);
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+section.hSecOne{
+    margin-top: 15%;
+    
+}
+
+.secOneImgGrp{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imgGrpDesk{
+    width: 100%;
+}
+
+.imgGrpDesk img{
+    width: 55%;
+}
+
+
+.imgGrpCircle{
+    position: absolute;
+    top: -24%;
+    left: 14%;
+}
+
+.secOneTxtGrp{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 12%;
+    justify-content: space-around;
+}
+
+.branding, 
+.desAndDev{
+    width: 40%;
+    text-align: center;
+}
+
+.branding p,
+.desAndDev p{
+    font-size: 0.875rem;
+}
+
+.branding h2,
+.desAndDev h2{
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+.hSecTwo{
+    margin-top: 7%;
 }
 
