@@ -127,13 +127,13 @@ section.hSecOne {
 }
 
 .imgGrpDesk img {
-  width: 55%;
+  width: 45%;
 }
 
 .imgGrpCircle {
   position: absolute;
-  top: -24%;
-  left: 14%;
+  top: -29%;
+  left: 19%;
 }
 
 .secOneTxtGrp {
@@ -142,14 +142,23 @@ section.hSecOne {
   display: flex;
   margin-top: 5%;
   margin-bottom: 12%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+}
+
+.branding {
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.desAndDev {
+  margin-right: 10%;
+  margin-left: 2%;
 }
 
 .branding,
 .desAndDev {
-  width: 40%;
+  width: 35%;
   text-align: center;
+  width: calc(100% / 2);
 }
 
 .branding p,
@@ -165,6 +174,77 @@ section.hSecOne {
 
 .hSecTwo {
   margin-top: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.carousel img {
+  border-radius: 50%;
+}
+
+.hSecThree {
+  background-image: url(../assets/home-4.jpeg);
+  background-size: cover;
+  height: 100vh;
+  background-position: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secThreeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.hSecThree ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hSecThree ul {
+  width: 25%;
+}
+
+.secThreePtTwo {
+  margin-right: 5%;
+}
+
+.iconsSecThree {
+  margin-top: 20%;
+  margin-right: 10%;
+}
+
+.iconsSecThree i {
+  border: 3px solid black;
+  border-radius: 50%;
+  padding: 10px 10px;
+  font-size: 2rem;
 }
 
 html {
