@@ -247,6 +247,38 @@ section.hSecOne {
   font-size: 2rem;
 }
 
+.vl {
+  border-left: 6px solid black;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+}
+
+.hSecFour h2 {
+  text-align: center;
+}
+
+.teamContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teamOne {
+  width: 48%;
+}
+
+.teamImgGrpOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teamImgGrpOne img:last-child {
+  padding-left: 30px;
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
