@@ -144,6 +144,7 @@ section.hSecOne{
 
 .hSecFour h2{
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .teamContainer{
@@ -154,10 +155,70 @@ section.hSecOne{
     width: 48%;
 }
 
-.teamImgGrpOne{
+.teamImgGrpOne,
+.teamImgGrpTwo,
+.teamImgWithTxt{
     display: flex;
 }
 
-.teamImgGrpOne img:last-child{
-    padding-left: 30px;
+.teamImgGrpOne img:last-child,
+.teamImgGrpTwo img:last-child,
+.teamTwoTxt{
+    margin-left: 30px;
+}
+
+.teamTwo{
+    margin-left: 30px;
+}
+
+.teamImgWithTxt,
+.teamImgGrpOne{
+    margin-top: 30px;
+}
+
+.teamOneTxt p{
+    margin-bottom: 0;
+}
+
+.teamOneTxt{
+    padding-top: 106px;
+}
+
+.teamTwoTxt{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.teamOne,
+.teamTwo{
+    width: calc(100% / 2);
+}
+
+// section five home page css
+
+.hSecFive{
+    display: flex;
+}
+
+.secFiveTxt,
+.secFiveImg{
+    width: calc(100% / 2);
+}
+
+.secFiveImg img{
+    width: 100%;
+}
+
+.secFiveTxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secFiveTxtContain{
+    width: 50%;
+    text-align: center;
 }

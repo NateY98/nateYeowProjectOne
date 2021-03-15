@@ -257,6 +257,7 @@ section.hSecOne {
 
 .hSecFour h2 {
   text-align: center;
+  margin-bottom: 10%;
 }
 
 .teamContainer {
@@ -269,14 +270,89 @@ section.hSecOne {
   width: 48%;
 }
 
-.teamImgGrpOne {
+.teamImgGrpOne,
+.teamImgGrpTwo,
+.teamImgWithTxt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.teamImgGrpOne img:last-child {
-  padding-left: 30px;
+.teamImgGrpOne img:last-child,
+.teamImgGrpTwo img:last-child,
+.teamTwoTxt {
+  margin-left: 30px;
+}
+
+.teamTwo {
+  margin-left: 30px;
+}
+
+.teamImgWithTxt,
+.teamImgGrpOne {
+  margin-top: 30px;
+}
+
+.teamOneTxt p {
+  margin-bottom: 0;
+}
+
+.teamOneTxt {
+  padding-top: 106px;
+}
+
+.teamTwoTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.teamOne,
+.teamTwo {
+  width: calc(100% / 2);
+}
+
+.hSecFive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secFiveTxt,
+.secFiveImg {
+  width: calc(100% / 2);
+}
+
+.secFiveImg img {
+  width: 100%;
+}
+
+.secFiveTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.secFiveTxtContain {
+  width: 50%;
+  text-align: center;
 }
 
 html {
