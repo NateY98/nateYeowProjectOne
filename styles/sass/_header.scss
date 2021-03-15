@@ -1,4 +1,4 @@
-// $primaryFontColor: #333333;
+@import "./variables";
 
 .headerNav{
     display: flex;
@@ -32,14 +32,14 @@ nav.navOne ul li a,
 nav.navTwo ul li a,
 nav.navOne ul li i,
 nav.navTwo ul li i{
-    // color: $primaryFontColor;
+    color: $primaryFontColor;
     font-size: 0.875rem;
 
 }
 
 h1{
     letter-spacing: 0.9px;
-    // font-family: $baseFont;
+    font-family: $baseFont;
     font-size: 2.313rem;
     text-transform: uppercase;
 }

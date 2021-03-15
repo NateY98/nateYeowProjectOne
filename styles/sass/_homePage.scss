@@ -1,3 +1,4 @@
+
 header.headerHome{
     background-image: url(../assets/home-1.jpeg);
     height: 100vh;
@@ -37,9 +38,7 @@ section.hSecOne{
 .secOneTxtGrp{
     display: flex;
     margin-top: 5%;
-    margin-bottom: 12%;
-    // justify-content: space-around;
-   
+    margin-bottom: 12%;   
 }
 
 .branding{
@@ -103,7 +102,7 @@ section.hSecOne{
 .secThreeContainer{
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: flex-end;
     
 }
 
@@ -122,7 +121,6 @@ section.hSecOne{
 .iconsSecThree{
     margin-top: 20%;
     margin-right: 10%;
-
 }
 
 .iconsSecThree i{
@@ -130,6 +128,10 @@ section.hSecOne{
     border-radius: 50%;
     padding: 10px 10px;
     font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
 }
 
 // section four home page css
@@ -149,10 +151,13 @@ section.hSecOne{
 
 .teamContainer{
     display: flex;
+    // flex-wrap: wrap;
 }
 
 .teamOne{
     width: 48%;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .teamImgGrpOne,
@@ -164,10 +169,6 @@ section.hSecOne{
 .teamImgGrpOne img:last-child,
 .teamImgGrpTwo img:last-child,
 .teamTwoTxt{
-    margin-left: 30px;
-}
-
-.teamTwo{
     margin-left: 30px;
 }
 
@@ -200,6 +201,7 @@ section.hSecOne{
 
 .hSecFive{
     display: flex;
+    margin-top: 10%;
 }
 
 .secFiveTxt,
