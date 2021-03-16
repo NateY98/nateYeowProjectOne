@@ -1,3 +1,6 @@
+@import "./mixins";
+@import "./variables";
+
 
 header.headerHome{
     background-image: url(../assets/home-1.jpeg);
@@ -61,13 +64,12 @@ section.hSecOne{
 
 .branding p,
 .desAndDev p{
-    font-size: 0.875rem;
+    @include bodyStyle(0.875rem);
 }
 
 .branding h2,
 .desAndDev h2{
-    font-size: 1.125rem;
-    text-transform: uppercase;
+    @include baseFont(1.125rem, 1.8px, 500)
 }
 
 
@@ -83,6 +85,10 @@ section.hSecOne{
     width: 70%;
     text-align: center;
     margin-bottom: 10%;
+}
+
+.carousel p{
+    @include bodyStyle(0.875rem);
 }
 
 .carousel img{
@@ -106,12 +112,20 @@ section.hSecOne{
     
 }
 
+.hSecThree p{
+    @include bodyStyle(0.875rem);
+}
+
 .hSecThree ul li{
     display: flex;
 }
 
 .hSecThree ul{
     width: 25%;
+}
+
+.secThreePtOne{
+    margin-right: 2%;
 }
 
 .secThreePtTwo{
@@ -147,6 +161,7 @@ section.hSecOne{
 .hSecFour h2{
     text-align: center;
     margin-bottom: 10%;
+    @include baseFont(1.5rem, 1.8px, 500)
 }
 
 .teamContainer{
@@ -179,10 +194,15 @@ section.hSecOne{
 
 .teamOneTxt p{
     margin-bottom: 0;
+    @include bodyStyle(0.875rem);
 }
 
 .teamOneTxt{
-    padding-top: 106px;
+    padding-top: 139px;
+}
+
+.teamOneTxt h3{
+    @include baseFont(1.125rem, 1.8px, 500)
 }
 
 .teamTwoTxt{
@@ -190,6 +210,12 @@ section.hSecOne{
     align-items: center;
     width: 50%;
     justify-content: center;
+}
+
+.teamTwoTxt h3{
+    @include baseFont(1.125rem, 1.8px, 500);
+    text-align: center;
+    width: 62%;
 }
 
 .teamOne,
@@ -223,4 +249,8 @@ section.hSecOne{
 .secFiveTxtContain{
     width: 50%;
     text-align: center;
+}
+
+.secFiveTxtContain p{
+    @include bodyStyle(0.875rem);
 }

@@ -12,11 +12,30 @@
 .footerSecTwo p,
 .footerSecThree p {
   font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 .bottomFoot p {
   text-transform: uppercase;
   text-align: center;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3.8px;
+  line-height: 24px;
+}
+
+.footerSecTwo ul li h3 {
+  text-align: center;
+}
+
+.footerSecTwo ul li {
+  list-style-type: disc;
+}
+
+.footerSecTwo ul li:first-child {
+  list-style-type: none;
 }
 
 .socialsFoot ul {
@@ -33,12 +52,28 @@
   padding-left: 0;
 }
 
+.footerSecThree ul li h3 {
+  text-align: right;
+}
+
+.footerSecOne h3,
+.footerSecTwo h3,
+.footerSecThree h3 {
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 body {
@@ -96,10 +131,13 @@ nav.navTwo ul li i {
 }
 
 h1 {
-  letter-spacing: 0.9px;
-  font-family: "Montserrat", sans-serif;
   font-size: 2.313rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.9px;
+  line-height: 24px;
   text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
 }
 
 header.headerHome {
@@ -166,12 +204,19 @@ section.hSecOne {
 .branding p,
 .desAndDev p {
   font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 .branding h2,
 .desAndDev h2 {
   font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .hSecTwo {
@@ -191,6 +236,13 @@ section.hSecOne {
   width: 70%;
   text-align: center;
   margin-bottom: 10%;
+}
+
+.carousel p {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 .carousel img {
@@ -223,6 +275,13 @@ section.hSecOne {
           justify-content: flex-end;
 }
 
+.hSecThree p {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
 .hSecThree ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -231,6 +290,10 @@ section.hSecOne {
 
 .hSecThree ul {
   width: 25%;
+}
+
+.secThreePtOne {
+  margin-right: 2%;
 }
 
 .secThreePtTwo {
@@ -264,6 +327,12 @@ section.hSecOne {
 .hSecFour h2 {
   text-align: center;
   margin-bottom: 10%;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .teamContainer {
@@ -299,10 +368,23 @@ section.hSecOne {
 
 .teamOneTxt p {
   margin-bottom: 0;
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 .teamOneTxt {
-  padding-top: 106px;
+  padding-top: 139px;
+}
+
+.teamOneTxt h3 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .teamTwoTxt {
@@ -316,6 +398,17 @@ section.hSecOne {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.teamTwoTxt h3 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  width: 62%;
 }
 
 .teamOne,
@@ -358,6 +451,13 @@ section.hSecOne {
 .secFiveTxtContain {
   width: 50%;
   text-align: center;
+}
+
+.secFiveTxtContain p {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 html {

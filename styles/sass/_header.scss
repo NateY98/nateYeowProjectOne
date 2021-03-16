@@ -38,8 +38,6 @@ nav.navTwo ul li i{
 }
 
 h1{
-    letter-spacing: 0.9px;
-    font-family: $baseFont;
-    font-size: 2.313rem;
-    text-transform: uppercase;
+    @include baseFont(2.313rem, 0.9px, 700);
+    line-height: 100%;
 }
