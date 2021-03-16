@@ -7,11 +7,14 @@
 }
 
 .footerSecOne p,
-.footerSecOne i,
 .footerSecTwo p,
 .footerSecThree p{
-    // font-size: 0.875rem;
     @include bodyStyle(0.875rem);
+    margin: 6px 0;
+}
+
+.footerSecOne i{
+    font-size: 0.875rem;
 }
 
 .bottomFoot p{

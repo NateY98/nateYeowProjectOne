@@ -1,3 +1,86 @@
+.contactBanner img {
+  width: 100%;
+}
+
+.contactTextGroup h2 {
+  font-size: 4.7rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 85px;
+  width: 30%;
+  margin-top: -10%;
+}
+
+.contactTextGroup h3 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contactTextGroup p {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  width: 60%;
+}
+
+.contactTextGroup {
+  margin-bottom: 15%;
+}
+
+.contactIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 15%;
+}
+
+.contactIcons i {
+  font-size: 3.75rem;
+}
+
+.contactIcons h4 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 10.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contactIcons p {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.phoneIcon,
+.mapIcon {
+  border-right: 2px solid #F6F6F6;
+  padding-right: 20%;
+}
+
+.contactFormTxt {
+  margin-bottom: 7%;
+}
+
+.imgBanner img {
+  width: 100%;
+}
+
 .footContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,13 +91,17 @@
 }
 
 .footerSecOne p,
-.footerSecOne i,
 .footerSecTwo p,
 .footerSecThree p {
   font-size: 0.875rem;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.3px;
   line-height: 24px;
+  margin: 6px 0;
+}
+
+.footerSecOne i {
+  font-size: 0.875rem;
 }
 
 .bottomFoot p {

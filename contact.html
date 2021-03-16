@@ -39,44 +39,48 @@
             <div class="contactBanner">
                 <img src="./assets/contact-1.jpeg" alt="a close up of the keyboard on a laptop and a plant">
             </div>
+            
         
-            <div class="contactTextGroup wrapper">
-                <h2>Contact Us</h2>
-                <h3>Contact Details</h3>
-                <p>If you need any help, please contact us or send us an email or go to our forum. We are sure that you can receive our reply as soon as possible.</p>
+            <div class="wrapper">
+                <div class="contactTextGroup">
+                    <h2>Contact Us</h2>
+                    <h3>Contact Details</h3>
+                    <p>If you need any help, please contact us or send us an email or go to our forum. We are sure that you can receive our reply as soon as possible.</p>
+                </div>
             </div>
         </section>
-        <section class="wrapper contactIcons">
-            <ul>
-                <li>
-                    <i></i>
+        <section class="wrapper">
+            <div class="contactIcons">
+                <div class="phoneIcon">
+                    <i class="fas fa-mobile-alt"></i>
                     <div>
                         <h4>Phone</h4>
-                        <p></p>
-                        <p></p>
+                        <p>Phone 01: 123, 456 7890</p>
+                        <p>Phone 02: 345 678 9101</p>
                     </div>
-                </li>
-                <li>
-                    <i></i>
+                </div>
+                <div class="mapIcon">
+                    <i class="fas fa-map-marker-alt"></i>
                     <div>
                         <h4>Address</h4>
-                        <p></p>
+                        <p>6591 Orchard Street, Toronto, Ontario</p>
                     </div>
-                </li>
-                <li>
-                    <i></i>
+                </div>
+                <div class="mailIcon">
+                    <i class="fas fa-envelope"></i>
                     <div>
                         <h4>Email</h4>
-                        <p></p>
-                        <p></p>
+                        <p>contact@creative.com</p>
+                        <p>info@creative.com</p>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
-        <section class="contactForm wrapper">
-            <h3>Get In Touch With Us</h3>
-            <p>If you have any question. Please don't hesitate to send us a message</p>
-
+        <section class="wrapper">
+            <div class="contactFormTxt">
+                <h3>Get In Touch With Us</h3>
+                <p>If you have any question. Please don't hesitate to send us a message</p>
+            </div>
             <form action="" class="contactForm" name="contactForm">
                 <label for="userName">Enter your name</label>
                 <input type="text" id="userName" placeholder="Enter your name..." name="userName" required>
@@ -88,9 +92,9 @@
                 <input type="text" name="subject" id="subject" placeholder="Subject (Optional)">
 
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Here goes your message"></textarea>
-
-                <button type="submit">Send Message</button>
+              
             </form>
+            <button type="submit">Send Message</button>
         </section>
         <section class="imgBanner">
             <img src="./assets/contact-2.jpeg" alt="a happy person talking on a cell phone">

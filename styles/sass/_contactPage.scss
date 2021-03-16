@@ -1,0 +1,62 @@
+@import "./mixins";
+@import "./variables";
+
+.contactBanner img{
+    width: 100%
+}
+
+// section one for contact page
+.contactTextGroup h2{
+    @include baseFont(4.7rem, 1.8px, 700);
+    line-height:85px;
+    width: 30%;
+    margin-top: -10%;
+}
+
+.contactTextGroup h3{
+    @include baseFont(1.125rem, 1.8px, 700);
+}
+
+.contactTextGroup p{
+    @include bodyStyle(0.875rem);
+    width: 60%;
+}
+
+.contactTextGroup{
+    margin-bottom: 15%;
+}
+
+// section two for contact page
+.contactIcons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+}
+
+.contactIcons i{
+    font-size: 3.75rem;
+}
+
+.contactIcons h4{
+    @include baseFont(1.125rem, 10.8px, 700);
+}
+
+.contactIcons p{
+    @include bodyStyle(0.875rem);
+}
+
+// ask about this colour line(I can see it)
+.phoneIcon,
+.mapIcon{
+    border-right: 2px solid #F6F6F6;
+    padding-right: 20%;
+}
+
+.contactFormTxt{
+    margin-bottom: 7%;
+}
+
+.imgBanner img{
+    width: 100%;
+}
