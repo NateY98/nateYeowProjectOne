@@ -19,3 +19,22 @@ body{
     margin: 0 auto;
 }
 
+// general styles for forms
+
+.formContain{
+    display: flex;
+}
+
+textarea{
+    padding-top: 40px;
+    resize: none;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.subButton{
+    margin-top: 40px;
+}
