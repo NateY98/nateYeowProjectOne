@@ -1,9 +1,72 @@
+header.headerBlog {
+  background-image: url(../assets/blog-1.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.blogPost h2 {
+  font-size: 3.9rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 85px;
+}
+
+.topSecLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8%;
+}
+
+.topSecLinks li {
+  padding-right: 5px;
+}
+
+.topSecLinks li a {
+  color: #333333;
+}
+
+.blogContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.alexGrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dctGrp {
+  width: 60%;
+}
+
+.dctGrp ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+}
+
 .contactBanner img {
   width: 100%;
 }
 
 .contactTextGroup h2 {
-  font-size: 4.7rem;
+  font-size: 3.9rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.8px;
   line-height: 24px;

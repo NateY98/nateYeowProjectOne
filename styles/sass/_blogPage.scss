@@ -1,2 +1,47 @@
 @import "./mixins";
 @import "./variables";
+
+header.headerBlog{
+    background-image: url(../assets/blog-1.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.blogPost h2{
+    @include baseFont(3.9rem, 1.8px, 700);
+    line-height:85px;
+  
+}
+
+.topSecLinks{
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.topSecLinks li{
+    padding-right: 5px;
+    a{
+        color: $primaryFontColor;
+    }
+}
+
+.blogContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alexGrp{
+    display: flex;
+}
+
+.dctGrp{
+    width: 60%;
+}
+
+.dctGrp ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+}
