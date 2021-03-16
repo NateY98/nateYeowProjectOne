@@ -81,6 +81,29 @@
   width: 100%;
 }
 
+.formContain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+textarea {
+  padding-top: 40px;
+  resize: none;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: none;
+  border-bottom: 1px solid #F6F6F6;
+}
+
+.subButton {
+  margin-top: 40px;
+}
+
 .footContainer {
   display: -webkit-box;
   display: -ms-flexbox;
