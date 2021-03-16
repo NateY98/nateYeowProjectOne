@@ -23,16 +23,21 @@
 }
 
 .contactTextGroup{
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 // section two for contact page
 .contactIcons{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 15%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 5%;
 }
+
+.contactIcons li{
+    min-width: calc(100% / 3);
+}
+
 
 .contactIcons i{
     font-size: 3.75rem;
@@ -49,8 +54,9 @@
 // ask about this colour line(I can see it)
 .phoneIcon,
 .mapIcon{
-    border-right: 2px solid #F6F6F6;
-    padding-right: 20%;
+    border-right: 1px solid $secondaryColor;
+    height: 200px;
+    margin-right: 60px;
 }
 
 .contactFormTxt{

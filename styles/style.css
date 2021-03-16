@@ -95,19 +95,23 @@ header.headerBlog {
 }
 
 .contactTextGroup {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .contactIcons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 15%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5%;
+}
+
+.contactIcons li {
+  min-width: calc(100% / 3);
 }
 
 .contactIcons i {
@@ -132,8 +136,9 @@ header.headerBlog {
 
 .phoneIcon,
 .mapIcon {
-  border-right: 2px solid #F6F6F6;
-  padding-right: 20%;
+  border-right: 1px solid #778899;
+  height: 200px;
+  margin-right: 60px;
 }
 
 .contactFormTxt {
@@ -151,6 +156,8 @@ header.headerBlog {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .footerSecOne p,
@@ -252,7 +259,7 @@ textarea {
   -ms-flex-item-align: center;
       align-self: center;
   border: none;
-  border-bottom: 1px solid #F6F6F6;
+  border-bottom: 1px solid #778899;
 }
 
 .subButton {
