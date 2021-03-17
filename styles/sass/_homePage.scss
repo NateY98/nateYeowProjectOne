@@ -167,6 +167,9 @@ section.hSecOne{
 
 .teamContainer{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .teamOne{
@@ -220,7 +223,7 @@ section.hSecOne{
 
 .teamOne,
 .teamTwo{
-    width: calc(100% / 2);
+    min-width: calc(100% / 2 - 60px);
 }
 
 // section five home page css

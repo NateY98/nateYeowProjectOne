@@ -81,4 +81,15 @@ footer button{
 
 footer button{
     background-color: $forthColor;
+    width: 20%;
+}
+
+footer input{
+    width: 80%;
+    margin-right: -10px;
+}
+
+footer form{
+    display: flex;
+    justify-content: flex-end;
 }

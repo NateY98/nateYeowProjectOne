@@ -8,9 +8,21 @@
 // section one for contact page
 .contactTextGroup h2{
     @include baseFont(3.9rem, 1.8px, 700);
-    line-height:85px;
+    line-height:70px;
     width: 30%;
-    margin-top: -10%;
+    margin-top: -8%;
+}
+
+.contactTextGroup h2{
+    position: relative;
+}
+
+.contactTextGroup h2::before{
+    content: "_";
+    position: absolute;
+    top: -96px;
+    left: 6px;
+    font-size: 5rem;
 }
 
 .contactTextGroup h3{
