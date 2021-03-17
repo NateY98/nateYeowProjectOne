@@ -72,3 +72,13 @@ footer{
     margin-bottom: 0;
     padding: 40px 0;
 }
+
+footer input,
+footer button{
+    padding: 8px;
+    border: none;
+}
+
+footer button{
+    background-color: $forthColor;
+}

@@ -407,6 +407,16 @@ footer {
   padding: 40px 0;
 }
 
+footer input,
+footer button {
+  padding: 8px;
+  border: none;
+}
+
+footer button {
+  background-color: #C3DAB7;
+}
+
 a {
   text-decoration: none;
 }
