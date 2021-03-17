@@ -10,9 +10,15 @@ footer{
 
 .footContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 100px
+    padding-bottom: 100px;
+}
+
+.footerSecOne,
+.footerSecTwo,
+.footerSecThree{
+    min-width: calc(100% / 3)
 }
 
 .footerSecOne p,
@@ -26,6 +32,14 @@ footer{
     font-size: 0.875rem;
 }
 
+.footerSecTwo{
+    display: flex;
+    justify-content: center;
+}
+
+.footerSecTwo ul{
+    margin-top: 0;
+}
 
 .footerSecTwo ul li h3{
     text-align: center;
@@ -38,6 +52,7 @@ footer{
 .footerSecTwo ul li:first-child{
     list-style-type: none;
 }
+
 
 .socialsFoot ul{
     display: flex;
@@ -85,11 +100,12 @@ footer button{
 }
 
 footer input{
-    width: 80%;
+    width: 50%;
     margin-right: -10px;
 }
 
-footer form{
+footer form,
+.footerSecThree p{
     display: flex;
     justify-content: flex-end;
 }
