@@ -144,7 +144,8 @@ header.headerBlog {
 }
 
 .bpRelatedPost h3,
-.bpComments h3 {
+.bpComments h3,
+.blogForm h3 {
   font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 1.8px;
@@ -161,6 +162,9 @@ header.headerBlog {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .bpRelatedPost ul li {
@@ -168,10 +172,61 @@ header.headerBlog {
   width: calc(100% / 3 - 20px);
 }
 
-.firstComment {
+.firstComment,
+.secondComment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.firstComment {
+  margin-bottom: 40px;
+}
+
+.bgColorComments {
+  background-color: #F6F6F6F6;
+  width: 100%;
+  padding: 20px;
+}
+
+.reply {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reply h4,
+.reply p {
+  margin: 0;
+}
+
+.reply h4 {
+  margin-right: 5px;
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.9px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.reply p {
+  color: #008000;
+  font-style: italic;
+}
+
+.commentImg {
+  margin-right: 40px;
+}
+
+.date {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 .contactBanner img {
