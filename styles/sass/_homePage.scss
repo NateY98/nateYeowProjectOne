@@ -272,3 +272,9 @@ section.hSecOne{
     background-color: $thirdColor;
     @include baseFont(0.875rem, 0.7px, 700);
 }
+
+.secFiveTxt a:hover{
+    color: $thirdColor;
+    background-color: $secondaryColor;
+    transition: 0.5s ease-in;
+}

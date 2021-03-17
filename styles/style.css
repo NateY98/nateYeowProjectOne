@@ -187,6 +187,20 @@ header.headerBlog {
   background-color: #F6F6F6F6;
   width: 100%;
   padding: 20px;
+  position: relative;
+}
+
+.bgColorComments::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 15px 8px 0;
+  border-color: transparent #F6F6F6F6 transparent transparent;
+  border-style: solid;
+  position: absolute;
+  top: 8px;
+  left: -13px;
 }
 
 .reply {
@@ -494,6 +508,13 @@ form textarea {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
+  border-bottom: 1px solid transparent;
+}
+
+.subButton:hover {
+  border-bottom: 1px solid #333333;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .headerNav {
@@ -548,6 +569,22 @@ h1 {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 100%;
+}
+
+.withTwo {
+  position: relative;
+}
+
+.withTwo p {
+  position: absolute;
+  top: 28px;
+  right: -7px;
+  font-size: 0.5rem;
+  background-color: #C3DAB7;
+  border-radius: 50%;
+  padding: 3px 5px;
+  width: 15px;
+  height: 15px;
 }
 
 header.headerHome {
@@ -898,6 +935,13 @@ section.hSecOne {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.secFiveTxt a:hover {
+  color: #FFFFFF;
+  background-color: #778899;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
 }
 
 html {

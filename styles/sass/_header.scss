@@ -42,6 +42,22 @@ h1{
     line-height: 100%;
 }
 
+.withTwo{
+    position: relative;
+}
+
+.withTwo p{
+    position: absolute;
+    top: 28px;
+    right: -7px;
+    font-size: 0.5rem;
+    background-color: $forthColor;
+    border-radius: 50%;
+    padding: 3px 5px;
+    width: 15px;
+    height: 15px;
+
+}
 // hover effect
 
 // nav.navOne ul li a{

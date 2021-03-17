@@ -67,5 +67,10 @@ form textarea{
 	cursor: pointer;
 	outline: inherit;
     @include baseFont(0.875rem, 0.7px, 700);
+    border-bottom: 1px solid transparent;
 }
 
+.subButton:hover{
+    border-bottom: 1px solid $primaryFontColor;
+    transition: 1s ease;
+}

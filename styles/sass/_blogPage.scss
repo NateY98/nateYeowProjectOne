@@ -127,10 +127,26 @@ header.headerBlog{
     margin-bottom: 40px;
 }
 
+// used a different color to set this up then swapped to this. Some friends from class were also helping to be my eyes
 .bgColorComments{
     background-color: $unseeableColor;
     width: 100%;
     padding: 20px;
+    position: relative;
+}
+
+// arrows in chat box
+.bgColorComments::before{
+    content:'';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 15px 8px 0;
+    border-color: transparent $unseeableColor transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 8px;
+    left: -13px;
 }
 
 .reply{
