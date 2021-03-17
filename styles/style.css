@@ -551,6 +551,8 @@ form textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 nav.navOne ul,
@@ -612,6 +614,34 @@ h1 {
   padding: 3px 5px;
   width: 15px;
   height: 15px;
+}
+
+nav.navOne ul li a,
+nav.navTwo ul li a {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: .15s ease all;
+  transition: .15s ease all;
+  padding: 5px 5px;
+}
+
+nav.navOne ul li a::after,
+nav.navTwo ul li a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 14px;
+  left: -40%;
+  background: #333;
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+nav.navOne ul li a:hover::after,
+nav.navTwo ul li a:hover::after {
+  left: -9px;
+  height: 1px;
+  width: 120%;
 }
 
 header.headerHome {
@@ -790,6 +820,15 @@ section.hSecOne {
   vertical-align: middle;
   width: 60px;
   height: 60px;
+}
+
+.iconTxtSec h3 {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .vl {

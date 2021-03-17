@@ -3,6 +3,7 @@
 .headerNav{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 nav.navOne ul, 
@@ -34,7 +35,6 @@ nav.navOne ul li i,
 nav.navTwo ul li i{
     color: $primaryFontColor;
     font-size: 0.875rem;
-
 }
 
 h1{
@@ -60,27 +60,30 @@ h1{
 }
 // hover effect
 
-// nav.navOne ul li a{
-//     position: relative;
-//     overflow: hidden;
-//     transition: .25s ease all;
-//     padding: 5px 5px;
-// }
+nav.navOne ul li a,
+nav.navTwo ul li a{
+    position: relative;
+    overflow: hidden;
+    transition: .15s ease all;
+    padding: 5px 5px;
+}
 
-// nav.navOne ul li a::after{
-//     content: "";
-//     position: absolute;
-//     display: block;
-//     bottom: 7px;
-//     left: -150%;
-//     height: 1px;
-//     width: 150%;
-//     background: #333;
-//     transition: .5s ease all;
+nav.navOne ul li a::after,
+nav.navTwo ul li a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 14px;
+    left: -40%;
+    background: #333;
+    transition: .5s ease all;
     
-// }
+}
 
-// nav.navOne ul li a:hover::after{
-//     left: -9px; 
-    
-// }
+nav.navOne ul li a:hover::after,
+nav.navTwo ul li a:hover::after{
+    left: -9px; 
+    height: 1px;
+    width: 120%;
+}
+

@@ -149,6 +149,10 @@ section.hSecOne{
     height: 60px;
 }
 
+.iconTxtSec h3{
+    @include baseFont(1.8rem, 1.8px, 500);
+}
+
 // section four home page css
 
 .vl{
