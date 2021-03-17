@@ -11,12 +11,13 @@ header.headerBlog{
 .blogPost h2{
     @include baseFont(3.9rem, 1.8px, 700);
     line-height:85px;
-  
+    margin-bottom: 0;
 }
 
 .topSecLinks{
     display: flex;
     margin-bottom: 8%;
+    @include bodyStyle(0.875rem);
 }
 
 .topSecLinks li{
@@ -29,18 +30,92 @@ header.headerBlog{
 .blogContainer{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .alexGrp{
     display: flex;
+    align-items: center;
+}
+
+.alexImg img{
+    border-radius: 50%;
+}
+
+.alexTxt{
+    margin-left: 20px;
 }
 
 .dctGrp{
     width: 60%;
 }
+
 .dctGrp ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0;
+}
+
+.bpSocials{
+    display: flex;
+}
+
+.bpSocials ul{
+    display: flex;
+    align-items: center;
+}
+
+.bpSocials ul li{
+    padding-left: 20px;
+}
+
+.bolded{
+    font-weight: bold;
+}
+
+.bpBottom p{
+    @include bodyStyle(0.875rem);
+}
+
+.blogContainer h4,
+.blogContainer p{
+    margin: 5px;
+}
+
+.blogContainer h4{
+    @include baseFont(1.125rem, 1.8px, 500)
+}
+
+.blogContainer p{
+    @include bodyStyle(0.875rem);
+}
+
+.bpSocials h4{
+    @include baseFont(1.125rem, 1.8px, 500)
+}
+
+.bpSocials{
+    margin-bottom: 80px;
+}
+
+.bpRelatedPost h3,
+.bpComments h3{
+    @include baseFont(1.8rem, 1.8px, 700);
+    padding-bottom: 20px;
+    border-bottom: 1px solid $secondaryColor;
+}
+
+.bpRelatedPost ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bpRelatedPost ul li{
+    margin-right: 20px;
+    width: calc(100% / 3 - 20px);
+}
+
+.firstComment{
+    display: flex;
 }

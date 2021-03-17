@@ -13,6 +13,7 @@ header.headerBlog {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 85px;
+  margin-bottom: 0;
 }
 
 .topSecLinks {
@@ -20,6 +21,10 @@ header.headerBlog {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 8%;
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
 }
 
 .topSecLinks li {
@@ -37,12 +42,25 @@ header.headerBlog {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .alexGrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.alexImg img {
+  border-radius: 50%;
+}
+
+.alexTxt {
+  margin-left: 20px;
 }
 
 .dctGrp {
@@ -59,6 +77,101 @@ header.headerBlog {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0;
+}
+
+.bpSocials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bpSocials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bpSocials ul li {
+  padding-left: 20px;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.bpBottom p {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.blogContainer h4,
+.blogContainer p {
+  margin: 5px;
+}
+
+.blogContainer h4 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.blogContainer p {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}
+
+.bpSocials h4 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.bpSocials {
+  margin-bottom: 80px;
+}
+
+.bpRelatedPost h3,
+.bpComments h3 {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #778899;
+}
+
+.bpRelatedPost ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bpRelatedPost ul li {
+  margin-right: 20px;
+  width: calc(100% / 3 - 20px);
+}
+
+.firstComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .contactBanner img {
