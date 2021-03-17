@@ -147,6 +147,14 @@ header.headerBlog {
 
 .imgBanner img {
   width: 100%;
+  display: block;
+}
+
+footer {
+  background-color: #333333;
+  background-size: contain;
+  color: #FFFFFF;
+  padding-top: 120px;
 }
 
 .footContainer {
@@ -158,6 +166,7 @@ header.headerBlog {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 
 .footerSecOne p,
@@ -172,15 +181,6 @@ header.headerBlog {
 
 .footerSecOne i {
   font-size: 0.875rem;
-}
-
-.bottomFoot p {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 3.8px;
-  line-height: 24px;
 }
 
 .footerSecTwo ul li h3 {
@@ -224,6 +224,21 @@ header.headerBlog {
   font-weight: 500;
 }
 
+.bottomFoot {
+  border-top: 1px solid #778899;
+}
+
+.bottomFoot p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3.8px;
+  line-height: 24px;
+  margin-bottom: 0;
+  padding: 40px 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -235,6 +250,7 @@ ul {
 
 body {
   font-size: 125%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
@@ -249,8 +265,13 @@ body {
   display: flex;
 }
 
-textarea {
-  padding-top: 40px;
+.contactContain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form textarea {
   resize: none;
   width: 100%;
   display: -webkit-box;
@@ -260,10 +281,41 @@ textarea {
       align-self: center;
   border: none;
   border-bottom: 1px solid #778899;
+  margin-top: 40px;
+}
+
+.contactForm input {
+  border: none;
+  border-bottom: 1px solid #778899;
+  width: calc(100% / 3 - 41px);
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.contactForm #userName {
+  margin-left: 0;
+}
+
+.contactForm #subject {
+  margin-right: 0;
 }
 
 .subButton {
-  margin-top: 40px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.7px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .headerNav {
@@ -328,7 +380,9 @@ header.headerHome {
 }
 
 section.hSecOne {
-  margin-top: 15%;
+  padding-top: 15%;
+  padding-bottom: 8%;
+  background-color: #C3DAB7;
 }
 
 .secOneImgGrp {
@@ -497,7 +551,7 @@ section.hSecOne {
 }
 
 .vl {
-  border-left: 6px solid black;
+  border-left: 6px solid #f6f6f6f6;
   height: 100px;
   text-align: center;
   position: relative;
@@ -610,6 +664,7 @@ section.hSecOne {
 
 .secFiveImg img {
   width: 100%;
+  display: block;
 }
 
 .secFiveTxt {
@@ -638,6 +693,33 @@ section.hSecOne {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.3px;
   line-height: 24px;
+  padding-bottom: 30px;
+}
+
+.secFiveTxt {
+  background-color: #C3DAB7;
+}
+
+.secFiveTxt h2 {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.secFiveTxt a {
+  padding: 20px 30px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.7px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 html {

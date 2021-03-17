@@ -12,8 +12,9 @@ header.headerHome{
 
 // section one home page css
 section.hSecOne{
-    margin-top: 15%;
-    
+    padding-top: 15%;
+    padding-bottom: 8%;
+    background-color: $forthColor;
 }
 
 .secOneImgGrp{
@@ -69,7 +70,7 @@ section.hSecOne{
 
 .branding h2,
 .desAndDev h2{
-    @include baseFont(1.125rem, 1.8px, 500)
+    @include baseFont(1.125rem, 1.8px, 500);
 }
 
 
@@ -151,7 +152,7 @@ section.hSecOne{
 // section four home page css
 
 .vl{
-    border-left: 6px solid black;
+    border-left: 6px solid #f6f6f6f6;
     height: 100px;
     text-align: center;
     position: relative;
@@ -166,7 +167,6 @@ section.hSecOne{
 
 .teamContainer{
     display: flex;
-    // flex-wrap: wrap;
 }
 
 .teamOne{
@@ -237,6 +237,7 @@ section.hSecOne{
 
 .secFiveImg img{
     width: 100%;
+    display: block;
 }
 
 .secFiveTxt{
@@ -253,4 +254,21 @@ section.hSecOne{
 
 .secFiveTxtContain p{
     @include bodyStyle(0.875rem);
+    padding-bottom: 30px;
+}
+
+.secFiveTxt{
+ background-color: $forthColor;   
+}
+
+.secFiveTxt h2{
+    @include baseFont(1.125rem, 1.8px, 500);
+    margin-bottom: 40px;
+}
+
+.secFiveTxt a{
+    padding: 20px 30px;
+    color: $primaryFontColor;
+    background-color: $thirdColor;
+    @include baseFont(0.875rem, 0.7px, 700);
 }
