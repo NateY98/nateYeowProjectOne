@@ -1,0 +1,208 @@
+@media (max-width: 1342px){
+    .teamContainer{
+        flex-wrap: wrap;
+    }
+
+    .hSecThree ul{
+        width: 35%;
+    }
+
+    .contactTextGroup h2{
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    .contactTextGroup h2::before{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1240px){
+    .imgGrpCircle{
+        top: -34%;
+        left: 17%;
+    }
+
+    .contactTextGroup h2::before{
+        top: -70%;
+    }
+}
+
+@media (max-width:1175px){
+
+    .footerSecOne,
+    .footerSecThree ul li h3{
+        text-align: center;
+    }
+
+    .socialsFoot ul{
+        justify-content: center;
+    }
+
+    footer form{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1100px){
+    .imgGrpCircle img{
+        width: 80%;
+    }
+
+    .contactIcons{
+        text-align: center;
+    }
+
+    .mapIcon,
+    .phoneIcon{
+        border: none;
+    }
+    
+    .mapIcon,
+    .phoneIcon,
+    .mailIcon{
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contactTextGroup h2::before{
+        top: -50%;
+    }
+
+}
+
+
+@media (max-width: 1000px){
+    .contactContain{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactContain input[type="text"],
+    .contactContain input[type="email"]{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 940px){
+    .hSecThree ul{
+        width: 45%;
+    }
+
+    .imgGrpCircle img{
+        width: 70%;
+    }
+
+    .imgGrpCircle{
+        left: 13%;
+    }
+
+    .hSecFive{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .secFiveTxt,
+    .secFiveImg{
+        width: 100%;
+    }
+
+    .secFiveTxt{
+        padding: 10% 0;
+    }
+    
+    .contactTextGroup h2{
+        margin-top: 0;
+    }
+
+    .contactTextGroup h2::before{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .imgGrpCircle img{
+        width: 50%;
+    }
+
+    .imgGrpCircle{
+        top: -29%;
+        left: 8%;
+    }
+}
+
+@media (max-width: 662px){
+    header nav{
+        visibility: hidden;
+    }
+    .hamburger{
+        display: block;
+        margin: auto 0;
+    }
+    .teamImgGrpOne,
+    .teamImgGrpTwo,
+    .teamImgWithTxt,
+    .teamOneTxt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imgGrpCircle img{
+        width: 40%;
+    }
+
+    .imgGrpCircle{
+        left: 4%;
+    }
+
+    .secOneTxtGrp{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .branding,
+    .desAndDev{
+        margin: 0;
+    }
+
+    .secThreePtTwo{
+        display: none;
+    }
+
+    .hSecThree ul{
+        width: 90%;
+    }
+
+    .contactTextGroup p{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 550px){
+    .imgGrpCircle{
+        left: 2%;
+    }
+
+    .reply p{
+        font-size: 0.875rem;
+    }
+
+}
+
+@media (max-width: 480px){
+    .imgGrpCircle{
+        left: -4%;
+    }
+    .carousel img{
+        width: 95%;
+    }
+}
+
+@media (max-width: 400px){
+    .secFiveTxt a{
+        font-size: 0.5rem;
+    }
+}

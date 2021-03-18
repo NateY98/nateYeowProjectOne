@@ -39,6 +39,7 @@ section.hSecOne{
     left: 19%;
 }
 
+
 .secOneTxtGrp{
     display: flex;
     margin-top: 5%;
@@ -171,32 +172,41 @@ section.hSecOne{
 
 .teamContainer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
 }
 
-.teamOne{
-    width: 48%;
-    margin-right: 30px;
+.teamContainer img{
+    display: block;
+}
+
+.teamContainer img,
+.teamContainer .teamTwoTxt,
+.teamContainer .teamOneTxt{
     margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .teamImgGrpOne,
 .teamImgGrpTwo,
 .teamImgWithTxt{
     display: flex;
+    
 }
 
-.teamImgGrpOne img:last-child,
-.teamImgGrpTwo img:last-child,
 .teamTwoTxt{
-    margin-left: 30px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.teamImgWithTxt,
-.teamImgGrpOne{
-    margin-top: 30px;
+.teamImgWithTxt{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teamOne,
+.teamTwo{
+    margin: 0;
 }
 
 .teamOneTxt p{
@@ -205,18 +215,12 @@ section.hSecOne{
 }
 
 .teamOneTxt{
-    padding-top: 139px;
+    padding-top: 138px;
+    width: 90%
 }
 
 .teamOneTxt h3{
     @include baseFont(1.125rem, 1.8px, 500)
-}
-
-.teamTwoTxt{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    justify-content: center;
 }
 
 .teamTwoTxt h3{
@@ -225,10 +229,6 @@ section.hSecOne{
     width: 62%;
 }
 
-.teamOne,
-.teamTwo{
-    min-width: calc(100% / 2 - 60px);
-}
 
 // section five home page css
 
