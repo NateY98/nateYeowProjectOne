@@ -1,9 +1,22 @@
 @import "./variables";
+@import "./mixins";
 
 .headerNav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+h1{
+    order: 2;
+}
+
+nav.navOne{
+    order: 1;
+}
+
+nav.navTwo{
+    order: 3;
 }
 
 nav.navOne ul, 
@@ -28,11 +41,12 @@ nav.navTwo ul li:last-child{
     padding-right: 0;
 }
 
-// why doesnt this work?, works when I use the color black but doesnt connect to my variables. Only works when I put $primaryFontColor in this file?
 nav.navOne ul li a,
 nav.navTwo ul li a,
 nav.navOne ul li i,
-nav.navTwo ul li i{
+nav.navTwo ul li i,
+nav.mobile ul li a,
+nav.mobile ul li i{
     color: $primaryFontColor;
     font-size: 0.875rem;
 }
@@ -91,4 +105,40 @@ nav.navTwo ul li a:hover::after{
 
 .hamburger{
     display: none;
+}
+
+nav.mobile{
+    text-align: center;
+    background: #F6F6F6;
+    display: none;
+}
+
+nav.mobile ul li{
+    padding: 20px 20px;
+}
+
+.wrapper2{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.withTwoMobile{
+    position: relative;
+}
+
+.withTwoMobile p{
+    position: absolute;
+    top: 27px;
+    right: 152px;
+    font-size: 0.5rem;
+    background-color: $forthColor;
+    border-radius: 50%;
+    padding: 3px 5px;
+    width: 15px;
+    height: 15px;
+
+}
+
+.showNav{
+    display: block;
 }

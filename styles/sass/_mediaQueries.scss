@@ -72,6 +72,20 @@
 
 }
 
+@media (max-width: 1067px){
+    h1{
+        order: 1;
+    }
+
+    nav.navOne{
+        order:2;
+    }
+
+    nav.navTwo{
+        order: 3;
+    }
+}
+
 
 @media (max-width: 1000px){
     .contactContain{
@@ -133,12 +147,16 @@
 }
 
 @media (max-width: 662px){
-    header nav{
-        visibility: hidden;
+    header nav.navOne,
+    header nav.navTwo{
+        // visibility: hidden;
+        display: none;
     }
+
     .hamburger{
         display: block;
         margin: auto 0;
+        order: 2;
     }
     .teamImgGrpOne,
     .teamImgGrpTwo,
@@ -177,6 +195,22 @@
 
     .contactTextGroup p{
         width: 100%;
+    }
+
+    h1{
+        order: 1;
+    }
+
+    nav.navOne{
+        order: 3;
+    }
+
+    nav.navTwo{
+        order: 4;
+    }
+
+    nav.mobile{
+        display: block;
     }
 
 }

@@ -576,6 +576,24 @@ form textarea {
       flex-wrap: wrap;
 }
 
+h1 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+nav.navOne {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+nav.navTwo {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
 nav.navOne ul,
 nav.navTwo ul {
   display: -webkit-box;
@@ -606,7 +624,9 @@ nav.navTwo ul li:last-child {
 nav.navOne ul li a,
 nav.navTwo ul li a,
 nav.navOne ul li i,
-nav.navTwo ul li i {
+nav.navTwo ul li i,
+nav.mobile ul li a,
+nav.mobile ul li i {
   color: #333333;
   font-size: 0.875rem;
 }
@@ -667,6 +687,41 @@ nav.navTwo ul li a:hover::after {
 
 .hamburger {
   display: none;
+}
+
+nav.mobile {
+  text-align: center;
+  background: #F6F6F6;
+  display: none;
+}
+
+nav.mobile ul li {
+  padding: 20px 20px;
+}
+
+.wrapper2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.withTwoMobile {
+  position: relative;
+}
+
+.withTwoMobile p {
+  position: absolute;
+  top: 27px;
+  right: 152px;
+  font-size: 0.5rem;
+  background-color: #C3DAB7;
+  border-radius: 50%;
+  padding: 3px 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.showNav {
+  display: block;
 }
 
 header.headerHome {
@@ -1105,6 +1160,24 @@ section.hSecOne {
   }
 }
 
+@media (max-width: 1067px) {
+  h1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  nav.navOne {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  nav.navTwo {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+
 @media (max-width: 1000px) {
   .contactContain {
     display: -webkit-box;
@@ -1165,12 +1238,16 @@ section.hSecOne {
 }
 
 @media (max-width: 662px) {
-  header nav {
-    visibility: hidden;
+  header nav.navOne,
+  header nav.navTwo {
+    display: none;
   }
   .hamburger {
     display: block;
     margin: auto 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
   .teamImgGrpOne,
   .teamImgGrpTwo,
@@ -1212,6 +1289,24 @@ section.hSecOne {
   }
   .contactTextGroup p {
     width: 100%;
+  }
+  h1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  nav.navOne {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  nav.navTwo {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  nav.mobile {
+    display: block;
   }
 }
 
