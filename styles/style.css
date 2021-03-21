@@ -1305,9 +1305,6 @@ section.hSecOne {
         -ms-flex-order: 4;
             order: 4;
   }
-  nav.mobile {
-    display: block;
-  }
 }
 
 @media (max-width: 550px) {
