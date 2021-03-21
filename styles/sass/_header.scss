@@ -140,5 +140,11 @@ nav.mobile ul li{
 }
 
 .showNav{
-    display: block;
+    position: relative;
+    left: 0;
+}
+
+.hideNav{
+    position: relative;
+    left: 100%;
 }

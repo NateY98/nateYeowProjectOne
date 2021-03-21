@@ -721,7 +721,13 @@ nav.mobile ul li {
 }
 
 .showNav {
-  display: block;
+  position: relative;
+  left: 0;
+}
+
+.hideNav {
+  position: relative;
+  left: 100%;
 }
 
 header.headerHome {
@@ -1304,6 +1310,9 @@ section.hSecOne {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
+  }
+  nav.mobile {
+    display: block;
   }
 }
 
