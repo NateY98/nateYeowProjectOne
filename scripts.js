@@ -8,14 +8,15 @@
 // target the i in the hamburger class
 const burger = document.getElementsByClassName("hamburger")[0];
 
+const mobileNav = document.getElementById('mobile')
 // make an event listener to check when burger menu is clicked
- // make a function within to toggle between the class ".showNav" on the "nav.mobile"
+
 burger.addEventListener('click', changeClass)
 
-function changeClass(){
-    const mobileNav = document.getElementById('mobile')
+ // make a function within to toggle between the class ".showNav" and ".hideNav" on the "nav.mobile"
+function changeClass(){    
     mobileNav.classList.toggle('hideNav')
     mobileNav.classList.toggle('showNav')
-    console.log("done")
+
 }
 

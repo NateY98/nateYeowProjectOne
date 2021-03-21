@@ -704,29 +704,13 @@ nav.mobile ul li {
   margin: 0 auto;
 }
 
-.withTwoMobile {
-  position: relative;
-}
-
-.withTwoMobile p {
-  position: absolute;
-  top: 27px;
-  right: 152px;
-  font-size: 0.5rem;
-  background-color: #C3DAB7;
-  border-radius: 50%;
-  padding: 3px 5px;
-  width: 15px;
-  height: 15px;
-}
-
 .showNav {
-  position: relative;
+  position: absolute;
   left: 0;
 }
 
 .hideNav {
-  position: relative;
+  position: absolute;
   left: 100%;
 }
 
