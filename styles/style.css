@@ -704,16 +704,6 @@ nav.mobile ul li {
   margin: 0 auto;
 }
 
-.showNav {
-  position: absolute;
-  left: 0;
-}
-
-.hideNav {
-  position: absolute;
-  left: 100%;
-}
-
 header.headerHome {
   background-image: url(../assets/home-1.jpeg);
   height: 100vh;
@@ -1294,9 +1284,6 @@ section.hSecOne {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
-  }
-  nav.mobile {
-    display: block;
   }
 }
 
